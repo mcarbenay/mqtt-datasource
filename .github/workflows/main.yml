@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Mage Action
-        uses: magefile/mage-action@v1.6.0
+        run: npm install -g mage
 
       # Runs a single command using the runners shell
       - name: yarn install
